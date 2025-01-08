@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar{
+    padding: 8px;
+    background-color: black;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+}
+
+ul {
+    width: fit-content;
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-size: 1rem;
+    height: 100%;
+  }
+
+  .NavBar li{
+    display: inline;
+    padding: 4px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 10px;
+  }
+
+  .NavBar li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .HomePage{
+    display: flex;
+    gap: 2rem;
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .Images img{
+    width: 300px;
+    height: auto;
+
+  }
+  .NavBar input[type=text] {
+    float: right;
+    padding: 2px;
+    border: none;
+    font-size: 17px;
+  }
+  
+  .Search{
+    gap: 10px;
+    display: flex;
+  }
+
+  .Search button[type=button]{
+    background-color: greenyellow;
+  }
+
+  .Search button[type=button] :hover{
+    background-color: rgb(0,89,18);
+}
+
+.Explore{
+    display: flex;
+    gap: 2rem;
+    padding: 16px;
+    background-color: rgb(186, 188, 188);
+    height: 200px;
+    position: sticky;
+
+    
+  }
+
+  .ContactUs{
+    display: flex;
+    gap: 2rem;
+    padding: 16px;
+    background-color: rgb(140, 141, 142);
+    height: 200px;
+  }
+
+  .AboutUs{
+    display: flex;
+    gap: 2rem;
+    padding: 16px;
+    background-color: rgb(103, 104, 104);
+    height: 200px;
+  }
+
+  .footer {
+    background-color: rgb(69, 69, 69);
+    background-size:1200px 410px;
+    background-position:center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+    padding: 16px;
+    color: white;
+}
+
+.footer .box h3{
+    padding:.5rem 0;
+    font-size: 2.5rem;
+    color:var(--black);
+}
+
+.footer .box a{
+    display: block;
+    padding:.5rem 0;
+    font-size: 1.5rem;
+    color:var(--light-color);
+}
